@@ -13,10 +13,8 @@ ySpeed = 0;
 frict = .2;
 accel = .4;
 
-gravity = .5;
+weight= .5;
 jetPower = 12;
 jumpPower = 10;
 
-myState = playerstate.onground;
-
-
+vertState = VerticalState.onGround;
